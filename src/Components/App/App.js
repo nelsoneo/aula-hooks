@@ -1,11 +1,11 @@
 import './App.css';
-import CounterHook from '../CounterHook/counterhook'
+import IfoodCounter from '../iFoodCounter/ifoodcounter';
 
 function App() {
   return (
     <>
       <h1>Hello Word</h1>
-       <CounterHook />
+       <IfoodCounter/>
     </>
   );
 }
